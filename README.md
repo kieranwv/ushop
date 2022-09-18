@@ -71,18 +71,7 @@
 
 ### 🌈 使用
 
-#### 关于 uview-ui，[点我访问 uview-ui 1.x](https://v1.uviewui.com/)
-
-注意：针对业务需要，对 uview-ui 组件进行了部分修改，请勿直接从官网下载全部替换。修改的功能列表如下：
-
-- u-waterfall 增加了左右两列边距的参数，marginLeft、marginRight
-- u-search 增加了调节圆角大小的参数，borderRadius
-- u-button 增加了 dark、white 配色，增加了 small 的 size，节流默认值由 1000 调整为 400
-- theme.scss 修改了 primary 配色，增加了 dark 配色
-- u-input 增加了 selectIconName 参数，可以自定义 type='select'模式下的右侧图标
-- u-upload 增加了删除图片 modal 的确认按钮颜色参数，deleteConfirmBtnColor
-
-#### 目录说明
+#### 1. 目录说明
 
 ```sh
 /api # 基于 uview-ui 的请求处理，以及模块化管理 api
@@ -107,7 +96,18 @@ uni.scss # 全局 scss 变量，注意此文件不要放置样式文件，仅限
 vue.config.js # webpack 配置
 ```
 
-#### Api 管理以及请求方法
+#### 2. uview-ui，[点我访问 uview-ui 1.x](https://v1.uviewui.com/)
+
+针对业务需要，对 uview-ui 组件进行了部分修改，请勿直接从官网下载全部替换。修改的功能列表如下：
+
+- u-waterfall 增加了左右两列边距的参数，marginLeft、marginRight
+- u-search 增加了调节圆角大小的参数，borderRadius
+- u-button 增加了 dark、white 配色，增加了 small 的 size，节流默认值由 1000 调整为 400
+- theme.scss 修改了 primary 配色，增加了 dark 配色
+- u-input 增加了 selectIconName 参数，可以自定义 type='select'模式下的右侧图标
+- u-upload 增加了删除图片 modal 的确认按钮颜色参数，deleteConfirmBtnColor
+
+#### 3. Api 管理以及请求方法
 
 避免重复封装，导致不必要的体积增长，使用基于 uview-ui 的 api 请求方法，再此基础上做了二次封装。
 
@@ -142,21 +142,21 @@ uview-ui 的请求配置：UVIEWUI_HTTP_CONFIG
 
 自定义请求封装，目录：/api/custom-request.js
 
-#### vuex 状态管理
+#### 4. vuex 状态管理
 
 - user 模块
 
 包括了用户登录、退出、微信登录、定位等常用方法封装及状态持久
 
-#### mixins 全局混入
+#### 5. mixins 全局混入
 
 - smsCode.js 验证码获取方法
 
-#### utils 工具函数
+#### 6. utils 工具函数
 
 - location.js 微信定位（含坐标转位置详情，需配置）
 
-#### 修改主题色
+#### 7. 修改主题色
 
 - 修改 uview-ui 的颜色配置
 

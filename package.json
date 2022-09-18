@@ -1,7 +1,7 @@
 {
 	"name": "u-shop",
 	"version": "1.0.0",
-	"description": "基于 uni-app 的社区电商微信小程序页面模板",
+	"description": "基于 Uniapp 开发，面向社区电商场景的微信小程序模板，涵盖商品、订单、用户、社区和积分商城等内容。页面均使用组件化开发，代码维护性高，您可以使用该模板页面进行业务快速开发。",
 	"main": "main.js",
 	"repository": {
 		"type": "git",

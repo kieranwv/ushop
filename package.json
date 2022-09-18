@@ -1,0 +1,12 @@
+{
+	"name": "u-shop",
+	"version": "1.0.0",
+	"description": "基于 uni-app 的社区电商微信小程序页面模板",
+	"main": "main.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kaivanwong/u-shop.git"
+	},
+	"author": "kaivanwong",
+	"license": "MIT"
+}

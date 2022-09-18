@@ -1,0 +1,244 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	// 主包
+	"pages": [
+		// 首页
+		{
+			"path": "pages/home/index"
+		},
+		// 商城
+		{
+			"path": "pages/mall/index"
+		},
+		// 社区
+		{
+			"path": "pages/community/index"
+		},
+		// 我的
+		{
+			"path": "pages/mine/index"
+		},
+		// 城市选择
+		{
+			"path": "pages/home/city-list"
+		},
+		// 通用搜索页
+		{
+			"path": "pages/search"
+		},
+		// 搜索结果页
+		{
+			"path": "pages/search-result"
+		},
+		// 登录页
+		{
+			"path": "pages/login/index"
+		},
+		// 欢迎页，不需要时放在最后
+		{
+			"path": "pages/start-page"
+		}
+	],
+	// 副包
+	"subPackages": [{
+		// 电商副包
+		"root": "pages-mall",
+		"pages": [
+			// 分类页
+			{
+				"path": "pages/classify"
+			},
+			// 购物车页
+			{
+				"path": "pages/shopping-cart"
+			},
+			// 商品详情
+			{
+				"path": "pages/goods/detail"
+			},
+			// 评价列表
+			{
+				"path": "pages/evaluate/list"
+			},
+			// 发表评价
+			{
+				"path": "pages/evaluate/add"
+			},
+			// 商品列表
+			{
+				"path": "pages/goods/list"
+			},
+			// 提交订单
+			{
+				"path": "pages/order/submit"
+			},
+			// 支付页
+			{
+				"path": "pages/order/pay"
+			},
+			// 支付结果页
+			{
+				"path": "pages/order/pay-result"
+			},
+			// 订单列表页
+			{
+				"path": "pages/order/list"
+			},
+			// 订单详情页
+			{
+				"path": "pages/order/detail"
+			},
+			// 申请售后
+			{
+				"path": "pages/after-sales/apply"
+			},
+			// 退款详情
+			{
+				"path": "pages/after-sales/back"
+			},
+			// 物流详情
+			{
+				"path": "pages/order/express"
+			}
+		]
+	}, {
+		// 社区副包
+		"root": "pages-community",
+		"pages": [
+			// 搜索圈子
+			{
+				"path": "pages/community/search"
+			},
+			// 选择圈子
+			{
+				"path": "pages/community/select"
+			},
+			// 创建/编辑圈子
+			{
+				"path": "pages/community/add-or-update"
+			},
+			// 发布帖子
+			{
+				"path": "pages/post/add"
+			},
+			// 帖子详情
+			{
+				"path": "pages/post/detail"
+			},
+			// 圈子详情
+			{
+				"path": "pages/community/detail"
+			},
+			// 圈子信息
+			{
+				"path": "pages/community/info"
+			},
+			// 晒单精选
+			{
+				"path": "pages/post/list"
+			}
+		]
+	}, {
+		// 积分副包
+		"root": "pages-points",
+		"pages": [
+			// 积分首页
+			{
+				"path": "pages/index"
+			}
+		]
+	}, {
+		// 个人中心副包
+		"root": "pages-mine",
+		"pages": [{
+				"path": "pages/discounts"
+			},
+			// 收获地址
+			{
+				"path": "pages/address/list"
+			},
+			// 收获地址新增/修改
+			{
+				"path": "pages/address/add-or-update"
+			},
+			// 我的收藏
+			{
+				"path": "pages/collection"
+			},
+			// 我的消息
+			{
+				"path": "pages/message"
+			},
+			// 发现好友
+			{
+				"path": "pages/discover"
+			},
+			// 我的粉丝
+			{
+				"path": "pages/fans"
+			},
+			// 我的关注
+			{
+				"path": "pages/follow"
+			},
+			// 我的社区
+			{
+				"path": "pages/community"
+			},
+			// 个人主页
+			{
+				"path": "pages/mine"
+			},
+			// 设置
+			{
+				"path": "pages/setting"
+			},
+			// 用户主页
+			{
+				"path": "pages/user"
+			}
+		]
+	}],
+	// 分包预载配置
+	"preloadRule": {
+
+	},
+	// 全局配置
+	"globalStyle": {
+		// 全局自定义导航栏
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black"
+	},
+	// tabbar配置
+	"tabBar": {
+		"color": "#8F92A1",
+		"selectedColor": "#171717",
+		"list": [{
+			"text": "首页",
+			"pagePath": "pages/home/index",
+			"iconPath": "./static/tabbar/home.png",
+			"selectedIconPath": "./static/tabbar/home_active.png"
+		}, {
+			"text": "商城",
+			"pagePath": "pages/mall/index",
+			"iconPath": "./static/tabbar/mall.png",
+			"selectedIconPath": "./static/tabbar/mall_active.png"
+		}, {
+			"text": "社区",
+			"pagePath": "pages/community/index",
+			"iconPath": "./static/tabbar/community.png",
+			"selectedIconPath": "./static/tabbar/community_active.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/mine/index",
+			"iconPath": "./static/tabbar/user.png",
+			"selectedIconPath": "./static/tabbar/user_active.png"
+		}]
+	},
+	// 启动模式配置
+	"condition": {
+
+	}
+}

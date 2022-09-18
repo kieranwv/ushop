@@ -1,0 +1,113 @@
+/** 
+ * 主题色配置
+ * 默认在 uni.scss 全局引入：@import '@/theme.scss';
+ * <script> 下使用主题变量：import x from '@/theme.scss';
+ */
+
+// 主颜色
+
+$app-theme-color: #5758f6;
+$app-theme-light-color: #aeaffe;
+$app-theme-deep-color: #8a90ff;
+
+// 背景色
+
+$app-theme-bg-color: #ffffff;
+$app-theme-bg-gray-color: #fafafa;
+$app-theme-bg-gray-deep-color: #f8f8f8;
+$app-theme-search-bg-color: #F4F5F8;
+
+// 内容色
+
+$app-theme-border-color: #efefef;
+$app-theme-text-color: #333333;
+
+$app-theme-text-gray-color: #8f92a1;
+$app-theme-card-gray-light-color: #cccccc;
+$app-theme-card-gray-deep-color: #696969;
+$app-theme-text-white-color: #ffffff;
+$app-theme-text-black-color: #171717;
+$app-theme-text-black-deep-color: #16162e;
+$app-theme-text-money-color: #fd4558;
+$app-theme-text-gray-white-color: #c3c6cb;
+
+// 特殊位置
+
+$app-theme-navbar-tab-color: #696969;
+$app-theme-navbar-tab-color-active: #333333;
+
+$app-theme-card-gray-color: #8f92a1;
+$app-theme-sku-gray-color: #f5f5f8;
+$app-theme-shop-gray-color: #888e98;
+
+$app-theme-points-sign-bg-color: #f0f0f0;
+$app-theme-points-sign-label-bg-color: #dfdfdf;
+$app-theme-points-sign-value-color: #696969;
+$app-theme-points-yellow-color: #f9a906;
+$app-theme-points-blue-color: #5758f6;
+// 背景色
+
+$app-theme-shadow: 0px 2px 8px 0px rgba(27, 25, 86, 0.06);
+
+// z-index值
+
+$app-zIndex-deep: 0;
+$app-zIndex-normal: 19;
+$app-zIndex-absolute: 99;
+$app-zIndex-fixed: 199;
+$app-zIndex-page: 999;
+
+// 全局.page
+
+.page {
+	min-height: 100vh;
+	background-color: $app-theme-bg-gray-color;
+}
+
+// 全局.slot
+
+.slot {
+}
+
+// 导出 scss 变量用于在 script 下使用
+
+:export {
+	appThemeColor: $app-theme-color;
+
+	appThemeBgColor: $app-theme-bg-color;
+	appThemeBgGrayColor: $app-theme-bg-gray-color;
+	appThemeBgGrayDeppColor: $app-theme-bg-gray-deep-color;
+	appThemeSearchBgColor: $app-theme-search-bg-color;
+
+	appThemeBorderColor: $app-theme-border-color;
+
+	appThemeTextColor: $app-theme-text-color;
+	appThemeTextGrayColor: $app-theme-text-gray-color;
+	appThemeTextGrayLightColor: $app-theme-card-gray-light-color;
+	appThemeTextGrayDeepColor: $app-theme-card-gray-deep-color;
+	appThemeTextWhiteColor: $app-theme-text-white-color;
+	appThemeTextBlackColor: $app-theme-text-black-color;
+	appThemeTextBlackDeepColor: $app-theme-text-black-deep-color;
+	appThemeTextMoneyColor: $app-theme-text-money-color;
+	appThemeTextGrayWhiteColor: $app-theme-text-gray-white-color;
+	appThemeSkuGrayColor: $app-theme-sku-gray-color;
+	appThemeCardGrayColor: $app-theme-card-gray-color;
+	appThemeShopGrayColor: $app-theme-shop-gray-color;
+
+	appThemePointsSignBgColor: $app-theme-points-sign-bg-color;
+	appThemePointsSignLabelColor: $app-theme-points-sign-label-bg-color;
+	appThemePointsSignValueColor: $app-theme-points-sign-value-color;
+	appThemePointsSignYellowColor: $app-theme-points-yellow-color;
+	appThemePointsSignBlueColor: $app-theme-points-blue-color;
+
+	appThemeNavbarTabColor: $app-theme-navbar-tab-color;
+	appThemeNavbarTabColorActive: $app-theme-navbar-tab-color-active;
+
+	appThemeShadow: $app-theme-shadow;
+
+	appZIndexDeep: $app-zIndex-deep;
+	appZIndexNormal: $app-zIndex-normal;
+	appZIndexAbsolute: $app-zIndex-absolute;
+	appZIndexFixed: $app-zIndex-fixed;
+	appZIndexPage: $app-zIndex-page;
+}

@@ -8,7 +8,7 @@
   <h1>uShop 友商城</h1>
   <div>
   
-  基于 Uniapp 开发，面向社区电商场景的微信小程序模板，涵盖商品、订单、用户、社区和积分商城等内容。页面均使用组件化开发，代码维护性高，您可以使用该模板页面进行业务快速开发。
+  基于 Uniapp 开发，面向社区电商场景的微信小程序模板，涵盖商品、订单、用户、社区和积分商城等内容。
 
 [![license](https://img.shields.io/github/license/kaivanwong/u-shop)](./LICENSE)
 [![github](https://img.shields.io/github/package-json/v/kaivanwong/u-shop)](https://github.com/kaivanwong/u-shop)

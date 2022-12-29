@@ -13,7 +13,7 @@
 		<!-- logo -->
 		<view class="logo-wrap" v-if="pageStatus == 'home' || pageStatus == 'getWxRole' || pageStatus == 'loginByCode'">
 			<image class="logo" src="../../static/app/logo.png"></image>
-			<view class="app-name">uShop 友商城</view>
+			<view class="app-name">Shop Weapp</view>
 		</view>
 
 		<!-- 默认登录页面显示 -->
@@ -34,7 +34,7 @@
 
 		<!-- 微信登录小程序，再授权获取用户信息之后 -->
 		<view class="loginWx" v-if="pageStatus == 'loginByWx'">
-			<view class="title">欢迎使用 uShop 友商城</view>
+			<view class="title">欢迎使用 Shop Weapp</view>
 			<view class="desc">立即登录享受优质服务</view>
 			<view class="avatar"><image mode="aspectFill" :src="wxLoginUserInfo.userInfo.avatarUrl"></image></view>
 			<u-button type="success" open-type="getPhoneNumber" @getphonenumber="decryptPhoneNumber">微信用户一键登录</u-button>

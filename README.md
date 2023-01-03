@@ -1,4 +1,4 @@
-# 🍬🍬🍬 Shop Weapp 
+# 🥝 Shop Weapp 
 
 社区电商场景 - 微信小程序，基于 Uniapp + uView UI 搭建，提供商品、订单、用户、社区和积分商城等页面模板
 

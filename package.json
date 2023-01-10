@@ -1,12 +1,16 @@
 {
-	"name": "shop-weapp",
-	"version": "1.0.0",
-	"description": "社区电商场景 - 微信小程序，基于 Uniapp + uView UI 搭建，提供商品、订单、用户、社区和积分商城等页面模板",
-	"main": "main.js",
+	"name": "@wingscloud/template-shop",
+	"version": "1.0.1",
+	"description": "【前端模板】社区电商微信小程序，Uniapp + uView UI 开发。模块化（组件式）开发，灵活的模块分包。提供商城流程、社区流程、积分、我的等 42 张全流程页面模板。",
+	"author": "Kaivan Wong <kaivanwong@outlook.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/wingscloud/template-shop#readme",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wings-cloud/shop-weapp.git"
+		"url": "git+https://github.com/wingscloud/template-shop.git"
 	},
-	"author": "Kaivan Wong",
-	"license": "MIT"
+	"bugs": {
+		"url": "https://github.com/wingscloud/template-shop/issues"
+	},
+	"main": "main.js"
 }

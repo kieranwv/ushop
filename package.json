@@ -1,7 +1,7 @@
 {
 	"name": "@wingscloud/template-shop",
 	"version": "1.0.1",
-	"description": "【前端模板】社区电商微信小程序，Uniapp + uView UI 开发。模块化（组件式）开发，灵活的模块分包。提供商城流程、社区流程、积分、我的等 42 张全流程页面模板。",
+	"description": "【前端模板】社区电商微信小程序，基于 Uniapp + uView UI 开发。模板基于成熟的产品设计及 UI 设计，同时提供商城流程、社区流程、积分、我的等 42 张全流程页面模板。全模块化开发，支持灵活分包及组件搭配组装。",
 	"author": "Kaivan Wong <kaivanwong@outlook.com>",
 	"license": "MIT",
 	"homepage": "https://github.com/wingscloud/template-shop#readme",

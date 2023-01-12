@@ -33,7 +33,7 @@
 
 ## 快速上手
 
-Wings Cloud 相关的项目持续维护。项目每次版本更新时，将发布到 Github 上。建议通过 [Github Release](https://github.com/wingscloud/template-admin/releases) 下载相应版本的源码压缩包。
+Wings Cloud 相关的项目持续维护。项目每次版本更新时，将发布到 Github 上。建议通过 [Github Release](https://github.com/wingscloud/template-shop/releases) 下载相应版本的源码压缩包。
  
 该项目通过 Uniapp 开发，您需要参阅 [Uniapp 文档](https://uniapp.dcloud.net.cn/) 学习如何使用。
 

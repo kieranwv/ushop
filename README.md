@@ -67,6 +67,8 @@ Wings Cloud 相关的项目持续维护。项目每次版本更新时，将发�
 
 - [🔥 @wingscloud/template-wash 【前端模板】自助洗车微信小程序](https://github.com/wingscloud/template-wash)
 
+- [🔥 @wingscloud/starter-vue3 【启动器】Vue3 生态，集成相关插件](https://github.com/wingscloud/starter-vue3)
+
 ## 界面展示
 
 <table>

@@ -1,4 +1,4 @@
-<p>wingscloud/assets
+<p>
 	<img width="100%" src="https://github.com/wingscloud/assets/blob/main/logos/banner.svg" />
 </p>
 
@@ -8,7 +8,7 @@
 
 - 一套代码实现 Android / IOS、小程序、H5页面、轻应用等；
 
-- 提供面向社区电商场景的 42 张页面模板，包含商城、订单、社区等全流程页面；
+- 提供面向社区电商场景的 42 张页面模板，包含商城、订单、我的等全流程页面；
 
 - 主题色变量抽离，可全局灵活修改主题颜色；
 

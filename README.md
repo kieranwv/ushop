@@ -23,7 +23,7 @@
 2. Wings Cloud Template Shop 项目版本更新时，通过 [Github Release](https://github.com/wingscloud/template-shop/releases) 下载相应版本的源码压缩包。
 
 3. 通过下载安装好的 Hbuilder X 打开项目。
- > 您也可以通过命令行运行项目，更多用法参考 [这里](https://uniapp.dcloud.net.cn/worktile/CLI.html)
+  > 您也可以通过命令行运行项目，更多用法参考 [这里](https://uniapp.dcloud.net.cn/worktile/CLI.html)
 
 4. 运行 --> 运行到微信小程序模拟器，什么是 [微信小程序模拟器](https://developers.weixin.qq.com/doc/)。
 

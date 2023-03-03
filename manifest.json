@@ -1,7 +1,7 @@
 {
     "name": "@wingscloud/template-shop",
     "appid": "__UNI__D9FFFF9",
-    "description": "基于 Uniapp + uView UI 社区电商微信小程序 / App 开发模板。提供商城、社区、积分、我的等 42 张全流程页面模板。",
+    "description": "基于 Uniapp + uView UI 的社区电商微信小程序 / App 开发模板。提供商城、社区、积分、我的等 42 张全流程页面模板。",
     "versionName": "1.0.0",
     "versionCode": "100",
     "transformPx": false,

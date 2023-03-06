@@ -47,8 +47,8 @@
 ├── main.js                   // 入口文件
 ├── package.json              // 配置
 ├── pages.json                // 页面配置
-└── theme.scss                // app 主题颜色
-└── uni.scss                  // uni 主题变量
+├── theme.scss                // app 主题颜色
+├── uni.scss                  // uni 主题变量
 └── vue.config.js             // Vue-cli 配置
 ```
 

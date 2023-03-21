@@ -1,5 +1,5 @@
 <p>
-	<img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/logos/banner.svg" />
+	<img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/wingscloud/banner.svg" />
 </p>
 
 # 项目特点
@@ -56,34 +56,34 @@
 
 <table>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/login.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/home.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/city-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/login.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/home.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/city-list.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-home.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/community.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/mine.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/shop-home.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/community.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/mine.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-detail.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-cart.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-pay.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/shop-detail.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/shop-cart.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-pay.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-list.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-after-sale.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/address.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-after-sale.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/address.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/publish-community.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/publish-post.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/address.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/publish-community.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/publish-post.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/address.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/mine-list.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-express.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/post.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/mine-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-express.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/post.jpg?raw=true" /></td>
 	</tr>
 </table>
 

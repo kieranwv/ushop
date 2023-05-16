@@ -33,7 +33,7 @@ cd template-shop
 使用 HBuilderX IDE 进行 Uniapp 开发
 ```
 
-# 展示
+## 演示
 
 <table>
 	<tr>

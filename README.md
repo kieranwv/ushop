@@ -38,10 +38,10 @@ cd template-shop
 
 <table>
 	<tr>
-		<td style="width:25%"><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/login.jpg?raw=true" /></td>
-		<td style="width:25%"><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/home.jpg?raw=true" /></td>
-		<td style="width:25%"><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/city-list.jpg?raw=true" /></td>
-		<td style="width:25%"><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-home.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/login.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/home.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/city-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-home.jpg?raw=true" /></td>
 	</tr>
 	<tr>
 		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/community.jpg?raw=true" /></td>

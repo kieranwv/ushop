@@ -1,8 +1,8 @@
-<p>
-	<img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/wingscloud/banner.svg" />
-</p>
+# Wing Cloud Template Shop
 
-# 项目特点
+🛒 社区电商微信小程序、App 开发模板，基于 Uniapp + uView UI 开发。
+
+## 特点
 
 - 基于成熟的产品设计、UI 设计，可以直接作为实际项目使用；
 
@@ -16,81 +16,70 @@
 
 - 提供灵活的微信小程序分包策略，按照不同的功能模块进行代码解耦分离；
 
-# 快速上手
+## 快速上手
 
-1. 您需要安装 [Hbuilder X](https://www.dcloud.io/hbuilderx.html) App 开发板，以及关于 [Uniapp](https://uniapp.dcloud.net.cn/) 的前置知识。
+> 访问 [官方网站](https://wingscloud.kaivanwong.me) 了解更多。
 
-2. Wings Cloud Template Shop 项目版本更新时，通过 [Github Release](https://github.com/wingscloud/template-shop/releases) 下载相应版本的源码压缩包。
+```sh
+# 拉取最新项目代码
 
-3. 通过下载安装好的 Hbuilder X 打开项目。
-	  > 您也可以通过命令行运行项目，更多用法参考 [这里](https://uniapp.dcloud.net.cn/worktile/CLI.html)
+git clone https://github.com/wingscloud/template-shop.git
 
-4. 运行 --> 运行到微信小程序模拟器，什么是 [微信小程序模拟器](https://developers.weixin.qq.com/doc/)。
+# 进入项目代码目录
 
-5. 运行完成后，您将在微信小程序模拟器中看到页面。
+cd template-shop
 
-# 源码目录结构
-
-```
-├── .hbuilderx                // HbuilderX IDE 配置
-├── /api                      // 接口管理目录
-├── /components               // 公共组件
-├── /mixins                   // 混入方法            
-├── /pages                    // 主页面      
-├── /pages-xxx                // 分包页面      
-├── /static                   // 静态资源
-├── /store                    // 全局状态管理
-├── /utils                    // 工具函数
-├── /uview-ui                 // UI 组件库
-├── ...
-├── App.vue                   // 根组件
-├── main.js                   // 入口文件
-├── package.json              // 配置
-├── pages.json                // 页面配置
-├── theme.scss                // app 主题颜色
-├── uni.scss                  // uni 主题变量
-└── vue.config.js             // Vue-cli 配置
+# 开发
+使用 HBuilderX IDE 进行 Uniapp 开发
 ```
 
-# 界面展示
+# 展示
 
 <table>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/login.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/home.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/city-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/login.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/home.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/city-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-home.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/shop-home.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/community.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/mine.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/community.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/mine.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-detail.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/shop-cart.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/shop-detail.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/shop-cart.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-pay.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-pay.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-list.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-after-sale.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/address.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-list.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-after-sale.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/address.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/publish-community.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/publish-post.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/address.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/mine-list.jpg?raw=true" /></td>
 	</tr>
 	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/publish-community.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/publish-post.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/address.jpg?raw=true" /></td>
-	</tr>
-	<tr>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/mine-list.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/order-express.jpg?raw=true" /></td>
-		<td><img width="100%" src="https://github.com/wingscloud/docs/blob/main/public/template-shop/post.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/order-express.jpg?raw=true" /></td>
+		<td><img width="100%" src="https://github.com/wingscloud/assets/blob/main/packages/assets/template-shop/post.jpg?raw=true" /></td>
+		<td></td>
+		<td></td>
 	</tr>
 </table>
 
-# 参与共建
+## 参与共建
 
-欢迎提交 PR。
+> 访问 [官方网站](https://wingscloud.kaivanwong.me) 了解更多。
 
-# 开源协议
+1. Fork 该仓库到您的 Github 账号下，并 Clone 到本地。
 
-Wings Cloud 相关开源软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0.html)，允许商业使用，但务必保留 LICENSE 信息。
+2. 安装项目依赖，Wings Cloud 使用 [pnpm](https://pnpm.io/) 作为默认包管理工具。
+
+3. 项目开发完成后，提交 PR 进行代码合并审核。
+
+## 许可证
+
+软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0)，在包含 License 情况下免费商业使用。
+
+Wings Cloud 的相关设计资源属 [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nd/4.0/)，不得用于商业行为。

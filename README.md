@@ -1,6 +1,6 @@
 # Wing Cloud Template Shop
 
-🛒 社区电商微信小程序、App 开发模板，基于 Uniapp + uView UI 开发。
+社区电商微信小程序、App 开发模板。
 
 ## 特点
 

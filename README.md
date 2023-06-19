@@ -1,6 +1,6 @@
 # Community Shop
 
-面向社区电商业务的微信小程序，基于 Uniapp + uView UI 开发，一套代码实现 Android、IOS、多家小程序、H5页面、轻应用等，提供常用的电商、社区、积分、帖子等 42 张页面模板。
+面向社区电商业务场景的微信小程序，基于 Uniapp + uView UI 开发，一套代码实现 Android、IOS、多家小程序、H5页面、轻应用等，提供常用的电商、社区、积分、帖子等 42 张页面模板。
 
 ## 特点
 
@@ -78,5 +78,3 @@ cd community-shop
 ## 许可证
 
 软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0)，在包含 License 情况下免费商业使用。
-
-Template App 的相关设计资源属 [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nd/4.0/)，不得用于商业行为。

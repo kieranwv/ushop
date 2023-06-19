@@ -1,6 +1,6 @@
-# Wing Cloud Template Shop
+# Community Shop
 
-社区电商微信小程序、App 开发模板。
+面向社区电商业务的微信小程序，基于 Uniapp + uView UI 开发，一套代码实现 Android、IOS、小程序、H5页面、轻应用等，提供常用的电商、社区、积分、帖子等 42 张页面模板。
 
 ## 特点
 
@@ -18,16 +18,14 @@
 
 ## 快速上手
 
-> 访问 [官方网站](https://wingscloud.kaivanwong.me) 了解更多。
-
 ```sh
 # 拉取最新项目代码
 
-git clone https://github.com/wingscloud/template-shop.git
+git clone https://github.com/template-app/community-shop.git
 
 # 进入项目代码目录
 
-cd template-shop
+cd community-shop
 
 # 开发
 
@@ -71,11 +69,9 @@ cd template-shop
 
 ## 参与共建
 
-> 访问 [官方网站](https://wingscloud.kaivanwong.me) 了解更多。
-
 1. Fork 该仓库到您的 Github 账号下，并 Clone 到本地。
 
-2. 安装项目依赖，Wings Cloud 使用 [pnpm](https://pnpm.io/) 作为默认包管理工具。
+2. 安装项目依赖，使用 [pnpm](https://pnpm.io/) 作为默认包管理工具。
 
 3. 项目开发完成后，提交 PR 进行代码合并审核。
 
@@ -83,4 +79,4 @@ cd template-shop
 
 软件遵循 [Apache 2.0 协议](https://www.apache.org/licenses/LICENSE-2.0)，在包含 License 情况下免费商业使用。
 
-Wings Cloud 的相关设计资源属 [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nd/4.0/)，不得用于商业行为。
+Template App 的相关设计资源属 [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nd/4.0/)，不得用于商业行为。

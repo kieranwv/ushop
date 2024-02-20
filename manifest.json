@@ -1,7 +1,7 @@
 {
     "name" : "小友优选",
     "appid" : "__UNI__C29AF02",
-    "description" : "基于 Uniapp + uView UI 的社区电商微信小程序 / App 开发模板。",
+    "description" : "基于 Uniapp + uView UI 开发的社区电商微信小程序",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,

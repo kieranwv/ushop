@@ -27,11 +27,11 @@
 ```sh
 # 拉取最新项目代码
 
-git clone https://github.com/template-app/community-shop.git
+git clone https://github.com/kaivanwong/ushop.git
 
 # 进入项目代码目录
 
-cd community-shop
+cd ushop
 
 # 开发
 

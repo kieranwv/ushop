@@ -4,7 +4,7 @@
 
 <h3 align="center"><b>小友优选</b> <sup><em>(UShop)</em></sup></h3>
 
-<p align="center">基于 Uniapp + uView UI 的社区电商微信小程序 / App 开发模板。</p>
+<p align="center">基于 Uniapp + uView UI 开发的社区电商微信小程序。</p>
 
 <br/>
 
